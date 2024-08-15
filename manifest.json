@@ -29,7 +29,7 @@
       "src": "source/mobile-screenshot.png",
       "sizes": "375x667",
       "type": "image/png",
-      "form_factor": "mobile"
+      "form_factor": "narrow"
     }
   ]
   }
