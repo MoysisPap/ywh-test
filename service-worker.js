@@ -1,15 +1,15 @@
 const CACHE_NAME = "safety-map-cache-v1";
 const urlsToCache = [
-  "/",
-  "/index.html",
-  "/style.css", // Ensure you add your CSS file here
-  "/script.js", // Add your JS file here
-  "/manifest.json",
-  "/source/icon-192x192.png",
-  "/source/icon-512x512.png",
-  "/source/desktop-screenshot.png",
-  "/source/mobile-screenshot.png",
-  "/source/favicon.ico",
+  "/ywh-test/",
+  "/ywh-test/index.html",
+  "/ywh-test/style.css",
+  "/ywh-test/script.js",
+  "/ywh-test/manifest.json",
+  "/ywh-test/source/icon-192x192.png",
+  "/ywh-test/source/icon-512x512.png",
+  "/ywh-test/source/desktop-screenshot.png",
+  "/ywh-test/source/mobile-screenshot.png",
+  "/ywh-test/source/favicon.ico",
 ];
 
 self.addEventListener("install", (event) => {
