@@ -4,8 +4,12 @@ const urlsToCache = [
   "/index.html",
   "/style.css", // Ensure you add your CSS file here
   "/script.js", // Add your JS file here
+  "/manifest.json",
   "/source/icon-192x192.png",
   "/source/icon-512x512.png",
+  "/source/desktop-screenshot.png",
+  "/source/mobile-screenshot.png",
+  "/source/favicon.ico",
 ];
 
 self.addEventListener("install", (event) => {
