@@ -7,7 +7,7 @@
   "theme_color": "#7C41FA",
   "start_url": "/index.html",
   "dir": "auto",
-  "scope": "/ywh-test/",
+  "scope": "./",
   "lang": "en",
   "orientation": "any",
   "display": "standalone",
