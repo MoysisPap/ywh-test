@@ -1,24 +1,24 @@
 {
-    "name": "Stockholm Safety Map",
-    "short_name": "SafetyMap",
-    "description": "A map to help others get home safely.",
-    "start_url": "/index.html",
-    "display": "standalone",
-    "background_color": "#ffffff",
-    "theme_color": "#7C41FA",
-    "source": [
-      {
-        "src": "source/icon-192x192.png",
-        "sizes": "192x192",
-        "type": "image/png"
-      },
-      {
-        "src": "source/icon-512x512.png",
-        "sizes": "512x512",
-        "type": "image/png"
-      }
-    ],
-    "screenshots": [
+  "name": "Stockholm Safety Map",
+  "short_name": "SafetyMap",
+  "description": "A map to help others get home safely.",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#7C41FA",
+  "source": [
+    {
+      "src": "source/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "source/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "screenshots": [
     {
       "src": "source/desktop-screenshot.png",
       "sizes": "1280x720",
