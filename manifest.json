@@ -434,7 +434,10 @@
       "src": "/source/icons/ios/128.png",
       "sizes": "128x128"
     },
-  
+    {
+      "src": "/source/icons/ios/144.png",
+      "sizes": "144x144"
+    },
     {
       "src": "/source/icons/ios/152.png",
       "sizes": "152x152"
