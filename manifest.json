@@ -7,7 +7,6 @@
   "theme_color": "#7C41FA",
   "start_url": "/index.html",
   "dir": "auto",
-  "scope": "./",
   "lang": "en",
   "orientation": "any",
   "display": "standalone",
@@ -18,9 +17,6 @@
     "fullscreen",
     "minimal-ui"
   ],
-  "launch_handler": {
-  "client_mode": "navigate"
-},
   "icons": [
     {
       "src": "source/icons/windows11/SmallTile.scale-100.png",
