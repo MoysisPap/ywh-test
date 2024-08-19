@@ -5,6 +5,10 @@
   "description": "A map to help others get home safely.",
   "start_url": "/index.html",
   "display": "standalone",
+  "display_override": [
+  "window-controls-overlay",
+  "standalone",
+  "browser"],
   "background_color": "#ffffff",
   "theme_color": "#7C41FA",
   "icons": [
