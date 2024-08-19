@@ -1,6 +1,7 @@
 {
   "name": "Stockholm Safety Map",
   "short_name": "SafetyMap",
+  "id": "/ywh-test/stockholm-safety-map",
   "description": "A map to help others get home safely.",
   "start_url": "/index.html",
   "display": "standalone",
