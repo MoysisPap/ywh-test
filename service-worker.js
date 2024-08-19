@@ -9,8 +9,6 @@ const urlsToCache = [
   "/ywh-test/style.css",
   "/ywh-test/script.js",
   "/ywh-test/manifest.json",
-  "/ywh-test/source/icon-192x192.png",
-  "/ywh-test/source/icon-512x512.png",
   "/ywh-test/source/desktop-screenshot.png",
   "/ywh-test/source/mobile-screenshot.png",
   "/ywh-test/source/favicon.ico",
