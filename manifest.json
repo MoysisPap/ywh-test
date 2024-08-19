@@ -3,14 +3,21 @@
   "short_name": "SafetyMap",
   "id": "/ywh-test/stockholm-safety-map",
   "description": "A map to help others get home safely.",
+  "background_color": "#ffffff",
+  "theme_color": "#7C41FA",
   "start_url": "/index.html",
+  "dir": "auto",
+  "scope": "/ywh-test/",
+  "lang": "en",
+  "orientation": "any",
   "display": "standalone",
   "display_override": [
   "window-controls-overlay",
   "standalone",
   "browser"],
-  "background_color": "#ffffff",
-  "theme_color": "#7C41FA",
+  "launch_handler": {
+  "client_mode": "navigate"
+},
   "icons": [
     {
       "src": "source/icons/windows11/SmallTile.scale-100.png",
