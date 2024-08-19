@@ -12,9 +12,12 @@
   "orientation": "any",
   "display": "standalone",
   "display_override": [
-  "window-controls-overlay",
-  "standalone",
-  "browser"],
+    "window-controls-overlay",
+    "standalone",
+    "browser",
+    "fullscreen",
+    "minimal-ui"
+  ],
   "launch_handler": {
   "client_mode": "navigate"
 },
