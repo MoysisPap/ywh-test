@@ -20,27 +20,11 @@
       name="google-site-verification"
       content="jFxhkrJrp_P0qBQKmqGPd5fg3CCQlfEGOnqOEQ07CUs"
     />
-    <script>
-      if ("serviceWorker" in navigator) {
-        window.addEventListener("load", () => {
-          navigator.serviceWorker.register("/ywh-test/service-worker.js").then(
-            (registration) => {
-              console.log(
-                "ServiceWorker registration successful with scope: ",
-                registration.scope
-              );
-            },
-            (err) => {
-              console.log("ServiceWorker registration failed: ", err);
-            }
-          );
-        });
-      }
-    </script>
   </head>
 
   <body onload="initMap()">
     <!-- <div class="language-buttons"></div> -->
+    <button class="pwa_button">Install the app</button>
     <div class="info__container box--modale">
       <h1>Help others get home safely in 3 simple steps:</h1>
       <ol>
@@ -462,6 +446,24 @@
       </button>
       <div id="loading" style="display: none">Loading...</div>
     </div>
+    <script>
+      if ("serviceWorker" in navigator) {
+        window.addEventListener("load", () => {
+          navigator.serviceWorker.register("/ywh-test/service-worker.js").then(
+            (registration) => {
+              console.log(
+                "ServiceWorker registration successful with scope: ",
+                registration.scope
+              );
+            },
+            (err) => {
+              console.log("ServiceWorker registration failed: ", err);
+            }
+          );
+        });
+      }
+    </script>
+    <script src="/pwaButton.js"></script>
     <script src="script.js"></script>
   </body>
 </html>
