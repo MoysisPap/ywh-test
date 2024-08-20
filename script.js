@@ -54,13 +54,13 @@ function submitForm() {
   let other = document.getElementById("comment").value;
 
   let checkboxes = document.querySelectorAll(
-    'input[name="feedbackSelect"]:checked'
+    'input[name="reasonSelect"]:checked'
   );
 
-  let feedbackSelect = [];
+  let reasonSelect = [];
 
   checkboxes.forEach(function (checkbox) {
-    feedbackSelect.push(checkbox.value);
+    reasonSelect.push(checkbox.value);
   });
 
   sidebar.style.display = "none";
@@ -76,7 +76,7 @@ function submitForm() {
     location: location,
     comment: other,
     timeStamp: new Date().toLocaleString(),
-    reason: feedbackSelect.join(", "), // Join array into string
+    reason: reasonSelect.join(", "), // Join array into string
   });
 
   fetch(
