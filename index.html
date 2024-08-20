@@ -59,185 +59,183 @@
           Next
         </button>
       </div>
-
-      <div class="input-label feeling">
-        <label for="feelingSelect">How does it feel?*</label>
-        <select id="feelingSelect" name="feelingSelect" required>
-          <option value="" disabled selected>How does it feel?*</option>
-          <option value="safe">Safe</option>
-          <option value="unsafe">Unsafe</option>
-        </select>
-      </div>
-
-      <div class="checkbox__container">
-        <label for="feedbackSelect">Why does it feel this way?</label>
-        <div>
-          <label class="form-checkbox-label" for="badLightingCheckbox">
-            <input
-              type="checkbox"
-              id="badLightingCheckbox"
-              name="reasonSelect"
-              value="Bad lighting"
-            />
-            Bad lighting</label
-          >
-          <label class="form-checkbox-label" for="goodLightingCheckbox">
-            <input
-              type="checkbox"
-              id="goodLightingCheckbox"
-              name="reasonSelect"
-              value="Good lighting"
-            />
-            Good lighting</label
-          >
-          <label class="form-checkbox-label" for="poorInfrastructureCheckbox">
-            <input
-              type="checkbox"
-              id="poorInfrastructureCheckbox"
-              name="reasonSelect"
-              value="Poor infrastructure"
-            />
-            Poor infrastructure</label
-          >
-          <label class="form-checkbox-label" for="goodInfrastructureCheckbox">
-            <input
-              type="checkbox"
-              id="goodInfrastructureCheckbox"
-              name="reasonSelect"
-              value="Good infrastructure"
-            />
-            Good infrastructure</label
-          >
-          <label class="form-checkbox-label" for="narrowStreetCheckbox">
-            <input
-              type="checkbox"
-              id="narrowStreetCheckbox"
-              name="reasonSelect"
-              value="Narrow street"
-            />
-            Narrow street</label
-          >
-          <label class="form-checkbox-label" for="wideStreetCheckbox">
-            <input
-              type="checkbox"
-              id="wideStreetCheckbox"
-              name="reasonSelect"
-              value="Wide street"
-            />
-            Wide street</label
-          >
-          <label class="form-checkbox-label" for="weirdPeopleCheckbox">
-            <input
-              type="checkbox"
-              id="weirdPeopleCheckbox"
-              name="reasonSelect"
-              value="Weird people around"
-            />
-            Intimidating people</label
-          >
-          <label class="form-checkbox-label" for="easyToNavigateCheckbox">
-            <input
-              type="checkbox"
-              id="easyToNavigateCheckbox"
-              name="reasonSelect"
-              value="Easy to navigate"
-            />
-            Easy to navigate</label
-          >
-          <label class="form-checkbox-label" for="pickpocketingCheckbox">
-            <input
-              type="checkbox"
-              id="pickpocketingCheckbox"
-              name="reasonSelect"
-              value="Lots of pickpocketing"
-            />
-            Lots of pickpocketing</label
-          >
-          <label class="form-checkbox-label" for="lotsOfPeopleCheckbox">
-            <input
-              type="checkbox"
-              id="lotsOfPeopleCheckbox"
-              name="reasonSelect"
-              value="Lots of people around"
-            />
-            Lots of people around</label
-          >
-          <label class="form-checkbox-label" for="badVibesCheckbox">
-            <input
-              type="checkbox"
-              id="badVibesCheckbox"
-              name="reasonSelect"
-              value="Bad vibes"
-            />
-            Bad vibes</label
-          >
-          <label class="form-checkbox-label" for="goodVibesCheckbox">
-            <input
-              type="checkbox"
-              id="goodVibesCheckbox"
-              name="reasonSelect"
-              value="Good vibes"
-            />
-            Good vibes</label
-          >
-          <label class="form-checkbox-label" for="harassmentCheckbox">
-            <input
-              type="checkbox"
-              id="harassmentCheckbox"
-              name="reasonSelect"
-              value="Experience of catcalling/ harassment/ abuse"
-            />
-            Bad experience
-          </label>
-          <label class="form-checkbox-label" for="seemsFamiliarCheckbox">
-            <input
-              type="checkbox"
-              id="seemsFamiliarCheckbox"
-              name="reasonSelect"
-              value="Seems familiar"
-            />
-            Seems familiar</label
-          >
-        </div>
-      </div>
-
-      <div class="input-label other">
-        <label for="other"> Other</label>
-        <input
-          type="text"
-          id="comment"
-          name="other"
-          placeholder="Why it feels safe or unsafe? &#10; (Optional)"
-        />
-      </div>
-      <div class="input-label name">
-        <label for="name">Name (optional)</label>
-        <input type="text" id="name" name="name" />
-      </div>
-
-      <div class="input-label gender">
-        <label for="gender">Gender*</label>
-        <select id="gender" name="gender" required>
-          <option value="" disabled selected class="option__placeholder">
-            Gender*
-          </option>
-          <option value="female">Female</option>
-          <option value="male">Male</option>
-          <option value="other">Other</option>
-          <option value="notspecified">Prefer not to say</option>
-        </select>
-      </div>
-      <div class="input-label email">
-        <label for="email">Email (optional)</label>
-        <input
-          type="text"
-          id="email"
-          name="email"
-          placeholder="Your Email (Optional)"
-        />
-      </div>
-
       <form id="myForm" onsubmit="return validateForm()">
+        <div class="input-label feeling">
+          <label for="feelingSelect">How does it feel?*</label>
+          <select id="feelingSelect" name="feelingSelect" required>
+            <option value="" disabled selected>How does it feel?*</option>
+            <option value="safe">Safe</option>
+            <option value="unsafe">Unsafe</option>
+          </select>
+        </div>
+
+        <div class="checkbox__container">
+          <label for="feedbackSelect">Why does it feel this way?</label>
+          <div>
+            <label class="form-checkbox-label" for="badLightingCheckbox">
+              <input
+                type="checkbox"
+                id="badLightingCheckbox"
+                name="reasonSelect"
+                value="Bad lighting"
+              />
+              Bad lighting</label
+            >
+            <label class="form-checkbox-label" for="goodLightingCheckbox">
+              <input
+                type="checkbox"
+                id="goodLightingCheckbox"
+                name="reasonSelect"
+                value="Good lighting"
+              />
+              Good lighting</label
+            >
+            <label class="form-checkbox-label" for="poorInfrastructureCheckbox">
+              <input
+                type="checkbox"
+                id="poorInfrastructureCheckbox"
+                name="reasonSelect"
+                value="Poor infrastructure"
+              />
+              Poor infrastructure</label
+            >
+            <label class="form-checkbox-label" for="goodInfrastructureCheckbox">
+              <input
+                type="checkbox"
+                id="goodInfrastructureCheckbox"
+                name="reasonSelect"
+                value="Good infrastructure"
+              />
+              Good infrastructure</label
+            >
+            <label class="form-checkbox-label" for="narrowStreetCheckbox">
+              <input
+                type="checkbox"
+                id="narrowStreetCheckbox"
+                name="reasonSelect"
+                value="Narrow street"
+              />
+              Narrow street</label
+            >
+            <label class="form-checkbox-label" for="wideStreetCheckbox">
+              <input
+                type="checkbox"
+                id="wideStreetCheckbox"
+                name="reasonSelect"
+                value="Wide street"
+              />
+              Wide street</label
+            >
+            <label class="form-checkbox-label" for="weirdPeopleCheckbox">
+              <input
+                type="checkbox"
+                id="weirdPeopleCheckbox"
+                name="reasonSelect"
+                value="Weird people around"
+              />
+              Intimidating people</label
+            >
+            <label class="form-checkbox-label" for="easyToNavigateCheckbox">
+              <input
+                type="checkbox"
+                id="easyToNavigateCheckbox"
+                name="reasonSelect"
+                value="Easy to navigate"
+              />
+              Easy to navigate</label
+            >
+            <label class="form-checkbox-label" for="pickpocketingCheckbox">
+              <input
+                type="checkbox"
+                id="pickpocketingCheckbox"
+                name="reasonSelect"
+                value="Lots of pickpocketing"
+              />
+              Lots of pickpocketing</label
+            >
+            <label class="form-checkbox-label" for="lotsOfPeopleCheckbox">
+              <input
+                type="checkbox"
+                id="lotsOfPeopleCheckbox"
+                name="reasonSelect"
+                value="Lots of people around"
+              />
+              Lots of people around</label
+            >
+            <label class="form-checkbox-label" for="badVibesCheckbox">
+              <input
+                type="checkbox"
+                id="badVibesCheckbox"
+                name="reasonSelect"
+                value="Bad vibes"
+              />
+              Bad vibes</label
+            >
+            <label class="form-checkbox-label" for="goodVibesCheckbox">
+              <input
+                type="checkbox"
+                id="goodVibesCheckbox"
+                name="reasonSelect"
+                value="Good vibes"
+              />
+              Good vibes</label
+            >
+            <label class="form-checkbox-label" for="harassmentCheckbox">
+              <input
+                type="checkbox"
+                id="harassmentCheckbox"
+                name="reasonSelect"
+                value="Experience of catcalling/ harassment/ abuse"
+              />
+              Bad experience
+            </label>
+            <label class="form-checkbox-label" for="seemsFamiliarCheckbox">
+              <input
+                type="checkbox"
+                id="seemsFamiliarCheckbox"
+                name="reasonSelect"
+                value="Seems familiar"
+              />
+              Seems familiar</label
+            >
+          </div>
+        </div>
+
+        <div class="input-label other">
+          <label for="other"> Other</label>
+          <input
+            type="text"
+            id="comment"
+            name="other"
+            placeholder="Why it feels safe or unsafe? &#10; (Optional)"
+          />
+        </div>
+        <div class="input-label name">
+          <label for="name">Name (optional)</label>
+          <input type="text" id="name" name="name" />
+        </div>
+
+        <div class="input-label gender">
+          <label for="gender">Gender*</label>
+          <select id="gender" name="gender" required>
+            <option value="" disabled selected class="option__placeholder">
+              Gender*
+            </option>
+            <option value="female">Female</option>
+            <option value="male">Male</option>
+            <option value="other">Other</option>
+            <option value="notspecified">Prefer not to say</option>
+          </select>
+        </div>
+        <div class="input-label email">
+          <label for="email">Email (optional)</label>
+          <input
+            type="text"
+            id="email"
+            name="email"
+            placeholder="Your Email (Optional)"
+          />
+        </div>
         <label class="accept-checkbox-label" for="accept">
           <input type="checkbox" id="accept" name="accept" value="accept" />
           I accept the
