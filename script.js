@@ -63,6 +63,7 @@ function submitForm() {
     reasonSelect.push(checkbox.value);
   });
 
+  console.log("reasonSelect", reasonSelect.join(", "));
   sidebar.style.display = "none";
   mapEl.style.display = "none";
   overlayEl.style.display = "flex";
